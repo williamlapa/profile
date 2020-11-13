@@ -1,0 +1,114 @@
+/* Importa a fonte Roboto do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+/* Import o Font Awesome */
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: grey;
+  line-height: 10px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio, .social {
+    text-align: center;
+}
+
+.bio {
+    line-height: 200%;
+}
+
+.bio, .personagem, .social {
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 480px;
+    margin: 16px auto;
+}
+
+.social {
+    color: rgb(7, 82, 7);
+    font-style: bold;    
+}
+
+.social ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.bio, .social {
+    text-align: center;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fab:hover {
+    opacity: .5;
+}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+      margin: 0 auto;      
+    }
+}
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+      margin: 0 auto;      
+    }
+}
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+      margin: 0 auto;
+   }
+}
